@@ -12,9 +12,10 @@
 
 import { StrictMode } from 'react'
 import ReactDOM from 'react-dom/client';
-import Header from './components/Header';
-import Footer from './components/Footer';
-import Home from './pages/Home';
+import Header from './components/Header.tsx';
+import Footer from "./components/Footer.tsx"
+import App from './App.tsx'
+// import Home from './pages/Home';
 import './index.css';
 import './styles/header.scss'
 import './styles/footer.scss'
@@ -23,7 +24,7 @@ import './styles/footer.scss'
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <StrictMode>
     <Header />
-    <Home />
+    <App />
     <Footer />
   </StrictMode>,
 );

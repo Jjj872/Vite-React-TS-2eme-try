@@ -1,5 +1,5 @@
 
-const Footer = () => {
+const Header = () => {
   return (
     <header> 
         <div className="header_wrapper">
@@ -8,7 +8,7 @@ const Footer = () => {
                 <ul>
                     <li><a href="index.html">Accueil</a></li>
                     <li><a href="about.html">A propos</a></li>
-                    <li><a href="projets.html">Projets</a></li>
+                    <li><a href="projects.html">Projects</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
             </nav>
@@ -17,4 +17,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default Header;
