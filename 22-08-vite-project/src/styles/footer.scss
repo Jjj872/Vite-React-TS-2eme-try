@@ -1,0 +1,23 @@
+footer {
+    background-color: #2D3047;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 40px;
+}
+.animation {
+    transition: 0.3s ease;
+}
+
+footer h3 {
+    font-size: 24px;
+    padding-bottom: 7px;
+    color: white;
+}
+footer p, footer a {
+    color : #D1D5DB;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+}

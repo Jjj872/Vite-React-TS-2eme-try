@@ -1,0 +1,27 @@
+.header_wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #F9FAFB;
+    align-items: center;
+}
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+.header_wrapper a:hover {
+    color: #419D78;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-family: 'inter';
+    transition: 0.3s ease;
+}
+.headername {
+    font-size: 24px;
+}
