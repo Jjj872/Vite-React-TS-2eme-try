@@ -1,3 +1,5 @@
+import '../styles/home.scss'
+
 const HomeSection2 = () => {
   return (
     <section className="section2">

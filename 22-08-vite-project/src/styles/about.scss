@@ -1,0 +1,244 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Montserrat:ital,wght@0,800;1,800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Prata&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shrikhand&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+}
+
+body {
+    font-family: 'Inter';
+    background-color: white;
+    color: #2D3047;
+}
+
+.playfair {
+    font-family: 'Playfair Display';
+    font-weight: 700;
+}
+
+/* HEADER */
+.header_wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 15px;
+    background-color: #F9FAFB;
+    align-items: center;
+}
+
+
+header ul {
+    list-style-type: none;
+    display: flex;
+    gap: 25px;
+}
+
+.header_wrapper a:hover {
+  color: #419D78;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Inter';
+    transition: 0.3s ease;
+}
+
+.headername {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* SECTION À PROPOS */
+.section_about {
+    padding: 100px 20px;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    gap: 80px;
+    align-items: center;
+}
+
+.section_about_text {
+    flex: 1;
+}
+
+.section_about_text h2 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #2D3047;
+}
+
+.section_about_text p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.section_about_img {
+    flex: 1;
+    text-align: center;
+}
+
+.section_about_img img {
+    max-width: 300px;
+    width: 100%;
+    border-radius: 50%;
+    border: 5px solid #419D78;
+    object-fit: cover;
+}
+
+/* COMPÉTENCES */
+.section_skills {
+    background-color: #F9FAFB;
+    padding: 100px 20px;
+}
+
+.section_skills h2 {
+    text-align: center;
+    font-size: 36px;
+    margin-bottom: 50px;
+}
+
+.skills_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+    max-width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+
+.skills_grid p {
+    background: #E5E7EB;
+    padding: 12px;
+    border-radius: 12px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+/* CONTACTEZ MOI */
+.section4_wrapper {
+    padding-top: 70px;
+    padding-bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    h2 {
+        color: #2D3047;
+        font-size: 36px;
+    }
+}
+#double_input {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    input{
+        width: 35%;
+        padding: 14px;
+        border-radius: 8px;
+        border: 1px solid #2D3047;
+        text-align: center;
+        font-size: 16px;
+    }
+}
+form { 
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    gap: 50px;
+    padding: 50px 20px;
+    textarea {
+        width: 87%;
+        text-align: center;
+        height: 100px;
+        border-radius: 12px;
+        border: 1px solid #2D3047;
+        resize: none;
+        font-size: 16px;
+    }
+    textarea::placeholder {
+        font-family: 'inter';
+        padding-top: 20px;
+    }
+    a{
+        color: white;
+        background-color: #419D78;
+        padding: 14px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-family: 'inter';
+    }
+    a:hover {
+        background-color: #34785D;
+}
+}
+.form_wrapper {
+    background: #F9FAFB;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    border-radius: 12px;
+}
+#checkbox_zone {
+    width: 90%;
+    display: flex;
+    gap: 10px;
+    p {
+        color: #4B5563; 
+    }
+}
+.section4 a {
+    transition: 0.3s ease;
+}
+
+
+/* FOOTER */
+footer {
+    background-color: #2D3047;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    padding: 40px;
+}
+footer h3 {
+    font-size: 24px;
+    padding-bottom: 7px;
+    color: white;
+}
+footer p, footer a {
+    color : #D1D5DB;
+}
+footer img {
+    width: 40px;
+    height: 40px;
+}
+
+/* RESPONSIVE */
+@media (max-width: 1024px) {
+    .container p {
+        padding: 20px;
+    }
+}
+
+@media (max-width: 768px) {
+    header nav {
+        display: none;
+    }
+    .container p {
+        text-align: center;
+        
+    }
+    .section_about {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section_about_img img {
+        margin-bottom: 30px;
+    }
+}

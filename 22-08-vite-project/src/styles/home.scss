@@ -120,14 +120,15 @@ header a {
     padding-top: 120px;
     padding-bottom: 100px;
     margin: auto;
+    background: #2D3047;
     h2{ 
         text-align: center;
         padding-bottom: 70px;
         font-size: 36px;
-        color: #2D3047;
+        // color: #2D3047;
     }
     h3{
-        color: #2D3047;
+        // color: #2D3047;
         padding-bottom: 20px;
         font-size: 24px;
     }
@@ -197,12 +198,12 @@ header a {
         font-size: 18px;
     }
     #projectLinkSection3 {
-        border-radius: 8px;
-        background-color: #2D3047;
-        font-family: 'inter';
-        text-decoration: none;
         color: white;
+        background-color: #419D78;
         padding: 14px;
+        border-radius: 12px;
+        text-decoration: none;
+        font-family: "inter";
         animation: 0.3s ease;
     }
     #projectLinkSection3:hover {
@@ -236,6 +237,7 @@ header a {
         font-size: 16px;
         font-family: 'inter';
         padding-bottom: 20px;
+        color: #2D3047;
     }
     a {
         color: #419D78;
@@ -252,13 +254,14 @@ header a {
     justify-content: space-evenly;
     padding-bottom: 20px;
     p {
-        background: #F3F4F6;
+        // background: #F3F4F6;
         border-radius: 12px;
         padding: 8px;
     }
 }
 
                                                                     /* SECTION 4 */
+.section4 { background: white}
 
 .section4_wrapper {
     padding-top: 70px;
@@ -328,6 +331,9 @@ form {
     p {
         color: #4B5563; 
     }
+}
+.container p {
+    color: #2D3047;
 }
 
 
